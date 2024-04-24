@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: #f1d09c;
+    padding: 10px;
+    
+}
+header img{
+    width: 100px;
+    height: 100px;
+    padding-inline: 10px;
+    vertical-align: middle;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    color: #eb64cb;
+    margin-bottom: 9px;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+}
+header nav ul li{
+    padding: 10px;
+    margin-inline: 0px;
+    list-style-type: none;
+    font-family:'Roboto', sans-serif;
+    color: #341e12;
+    border: unset;
+    color: #212121;
+    z-index: 1;
+    position: relative;
+    font-weight: 1000;
+    
+    transition: all 250ms;
+    overflow: hidden;
+}
+
+header nav ul li a{
+    font-size: 18px;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #341e12;
+    text-transform: capitalize;
+}
+
+/* Hoverzin */
+header nav ul li:hover{
+    color: #fff6eb;
+
+}
+header nav ul li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #fff6eb;
+    z-index: -1;
+    transition: all 250ms
+}

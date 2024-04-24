@@ -1,0 +1,9 @@
+footer{
+    padding: 30px;
+    background-color: #f1d09c;
+    color: #000;
+    bottom: 0;
+    /* position: fixed; */
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
