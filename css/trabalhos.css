@@ -7,6 +7,9 @@ h2{
     font-size: 15px;
     margin-bottom: 8px;
 }
+p{
+    font-size: 15px;
+}
 /* section{
     column-count: 4;
     column-gap: 10px;
